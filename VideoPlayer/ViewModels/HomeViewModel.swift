@@ -39,7 +39,6 @@ final class HomeViewModel: ObservableObject {
     
     
     @MainActor func action(_ action: Action) async {
-        print(action)
       switch action {
       case .initialize:
         let videos = await videoService.fetchVideos()

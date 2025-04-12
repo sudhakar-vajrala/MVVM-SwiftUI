@@ -32,7 +32,6 @@ final class VideoRowViewModel: ObservableObject, Identifiable {
     
     
     func action(_ action: Action) {
-        print("action2: \(action)", terminator:"sudha")
         switch action {
         case .initialize:
             break
